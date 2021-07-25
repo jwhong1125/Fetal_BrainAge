@@ -7,11 +7,10 @@ from sklearn.model_selection import StratifiedKFold, train_test_split
 import tensorflow as tf
 import keras
 from keras.backend.tensorflow_backend import set_session
-import pudb, ipdb, argparse
+import argparse
 from keras.callbacks import ModelCheckpoint, EarlyStopping, LearningRateScheduler
 from keras import backend as K
 from keras.preprocessing.image import ImageDataGenerator
-import imgaug.augmenters as iaa
 
 parser = argparse.ArgumentParser('   ==========   Fetal brain age prediction, made by Jinwoo Hong 2020.09.20 ver.1)   ==========   ')
 parser.add_argument('-input_csv',action='store',dest='input_csv',type=str, required=True, help='input csv table')
