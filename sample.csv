@@ -1,0 +1,4 @@
+ID,GW,GW_round,MR
+0001,30.2,30,data/sample_0001_001_TD.nii.gz
+0001,30.2,30,data/sample_0001_002_TD.nii.gz
+0002,22.6,23,data/sample_0002_001_TD.nii.gz
